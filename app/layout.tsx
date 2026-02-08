@@ -6,8 +6,8 @@ import { IframeLoggerInit } from '@/components/IframeLoggerInit'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Next.js App',
-  description: 'Built with Next.js, React, and Tailwind CSS',
+  title: 'AI Graphics Studio',
+  description: 'Generate stunning social media graphic concepts for tech and AI content with an AI-powered creative assistant.',
 }
 
 export default function RootLayout({

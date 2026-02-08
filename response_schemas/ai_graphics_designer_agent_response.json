@@ -1,0 +1,181 @@
+{
+  "agent_name": "AI Graphics Designer Agent",
+  "agent_id": "69890b77088744b32a9829e9",
+  "agent_purpose": "Generates creative social media graphic concepts for tech/AI content including visual descriptions, color palettes, typography recommendations, layout structures, platform specifications, and copy suggestions",
+  "description": "AI Graphics Designer Agent that generates creative social media graphic concepts with visual descriptions, color palettes, typography, layout, platform specs, copy suggestions, and design tips",
+  "response_schema": {
+    "concept_title": "string",
+    "visual_description": "string",
+    "color_palette": [
+      {
+        "name": "string",
+        "hex": "string",
+        "usage": "string"
+      }
+    ],
+    "typography": {
+      "headline_font": "string",
+      "body_font": "string",
+      "style_notes": "string"
+    },
+    "layout": {
+      "structure": "string",
+      "focal_point": "string",
+      "visual_flow": "string"
+    },
+    "platform_specs": {
+      "platform": "string",
+      "dimensions": "string",
+      "aspect_ratio": "string",
+      "file_format": "string",
+      "max_file_size": "string"
+    },
+    "copy_suggestions": {
+      "headline": "string",
+      "subheadline": "string",
+      "body_text": "string",
+      "call_to_action": "string",
+      "hashtags": [
+        "string"
+      ]
+    },
+    "design_tips": [
+      "string"
+    ]
+  },
+  "example_response": {
+    "concept_title": "AI-Powered Productivity Boost",
+    "visual_description": "The graphic features a sleek, modern workspace with a luminous digital brain hologram hovering above a laptop, radiating vibrant, dynamic circuitry patterns. The background is a gradient of deep blues and purples, giving a futuristic night-tech vibe. Minimal geometric shapes and transparent overlays add depth, while subtle neon lines connect icons representing productivity tools (calendar, task list, chat bubbles). The overall mood is energetic, tech-savvy, and inspiring, with a crisp, clean layout to appeal to professionals seeking innovation.",
+    "color_palette": [
+      {
+        "name": "Electric Blue",
+        "hex": "#0074D9",
+        "usage": "Brain hologram, neon circuit lines"
+      },
+      {
+        "name": "Cyber Purple",
+        "hex": "#6F42C1",
+        "usage": "Background gradient and shadow elements"
+      },
+      {
+        "name": "Midnight Navy",
+        "hex": "#1A2236",
+        "usage": "Main background and workspace surfaces"
+      },
+      {
+        "name": "Emerald Green",
+        "hex": "#2ECC40",
+        "usage": "Accent icons and connective lines"
+      },
+      {
+        "name": "Pure White",
+        "hex": "#FFFFFF",
+        "usage": "Text, hologram highlights, and icon details"
+      }
+    ],
+    "typography": {
+      "headline_font": "Montserrat Bold",
+      "body_font": "Roboto Regular",
+      "style_notes": "Headline at 48px, uppercase, high letter-spacing; body at 24px with light line spacing; use semi-bold for key phrases. Ample padding around text elements for clarity."
+    },
+    "layout": {
+      "structure": "A symmetrical grid with the laptop and hologram centered, headline above, subheadline below, and icons scattered with connective lines extending left and right. CTA button anchored at the bottom center.",
+      "focal_point": "The glowing digital brain above the laptop",
+      "visual_flow": "Eye is drawn first to the hologram, then follows the radiating lines to icons and textual content, ending at the call-to-action button."
+    },
+    "platform_specs": {
+      "platform": "LinkedIn",
+      "dimensions": "1200x627",
+      "aspect_ratio": "1.91:1",
+      "file_format": "PNG",
+      "max_file_size": "5MB"
+    },
+    "copy_suggestions": {
+      "headline": "Unlock AI Productivity",
+      "subheadline": "Revolutionize your workflow with intelligent tools",
+      "body_text": "Discover how AI automates tasks, streamlines collaboration, and maximizes your productivity potential.",
+      "call_to_action": "Explore AI Solutions",
+      "hashtags": [
+        "#AI",
+        "#Productivity",
+        "#TechInnovation",
+        "#FutureOfWork",
+        "#ArtificialIntelligence"
+      ]
+    },
+    "design_tips": [
+      "Use soft glows and gradients on the brain hologram for visual impact",
+      "Keep iconography clean and minimal for modern appeal",
+      "Ensure text contrast by placing it over semi-transparent dark overlays"
+    ]
+  },
+  "is_actual_tested": true,
+  "test_timestamp": "2026-02-08T22:18:45.092955",
+  "test_message_used": "Hello, provide a sample response",
+  "actual_test_response": {
+    "concept_title": "AI-Powered Productivity Boost",
+    "visual_description": "The graphic features a sleek, modern workspace with a luminous digital brain hologram hovering above a laptop, radiating vibrant, dynamic circuitry patterns. The background is a gradient of deep blues and purples, giving a futuristic night-tech vibe. Minimal geometric shapes and transparent overlays add depth, while subtle neon lines connect icons representing productivity tools (calendar, task list, chat bubbles). The overall mood is energetic, tech-savvy, and inspiring, with a crisp, clean layout to appeal to professionals seeking innovation.",
+    "color_palette": [
+      {
+        "name": "Electric Blue",
+        "hex": "#0074D9",
+        "usage": "Brain hologram, neon circuit lines"
+      },
+      {
+        "name": "Cyber Purple",
+        "hex": "#6F42C1",
+        "usage": "Background gradient and shadow elements"
+      },
+      {
+        "name": "Midnight Navy",
+        "hex": "#1A2236",
+        "usage": "Main background and workspace surfaces"
+      },
+      {
+        "name": "Emerald Green",
+        "hex": "#2ECC40",
+        "usage": "Accent icons and connective lines"
+      },
+      {
+        "name": "Pure White",
+        "hex": "#FFFFFF",
+        "usage": "Text, hologram highlights, and icon details"
+      }
+    ],
+    "typography": {
+      "headline_font": "Montserrat Bold",
+      "body_font": "Roboto Regular",
+      "style_notes": "Headline at 48px, uppercase, high letter-spacing; body at 24px with light line spacing; use semi-bold for key phrases. Ample padding around text elements for clarity."
+    },
+    "layout": {
+      "structure": "A symmetrical grid with the laptop and hologram centered, headline above, subheadline below, and icons scattered with connective lines extending left and right. CTA button anchored at the bottom center.",
+      "focal_point": "The glowing digital brain above the laptop",
+      "visual_flow": "Eye is drawn first to the hologram, then follows the radiating lines to icons and textual content, ending at the call-to-action button."
+    },
+    "platform_specs": {
+      "platform": "LinkedIn",
+      "dimensions": "1200x627",
+      "aspect_ratio": "1.91:1",
+      "file_format": "PNG",
+      "max_file_size": "5MB"
+    },
+    "copy_suggestions": {
+      "headline": "Unlock AI Productivity",
+      "subheadline": "Revolutionize your workflow with intelligent tools",
+      "body_text": "Discover how AI automates tasks, streamlines collaboration, and maximizes your productivity potential.",
+      "call_to_action": "Explore AI Solutions",
+      "hashtags": [
+        "#AI",
+        "#Productivity",
+        "#TechInnovation",
+        "#FutureOfWork",
+        "#ArtificialIntelligence"
+      ]
+    },
+    "design_tips": [
+      "Use soft glows and gradients on the brain hologram for visual impact",
+      "Keep iconography clean and minimal for modern appeal",
+      "Ensure text contrast by placing it over semi-transparent dark overlays"
+    ]
+  }
+}

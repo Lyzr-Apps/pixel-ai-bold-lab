@@ -1,0 +1,9 @@
+{
+  "agents": [
+    {
+      "name": "AI Graphics Designer Agent",
+      "agent_id": "69890b77088744b32a9829e9",
+      "type": "single"
+    }
+  ]
+}
